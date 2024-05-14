@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Личные финансы</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <form id="transaction-form">
+        <input type="number" id="amount" placeholder="Сумма" required>
+        <select id="category">
+            <option value="Debit">Debit</option>
+            <option value="Credit">Credit</option>
+        </select>
+        <textarea id="description" placeholder="Описание" required></textarea>
+        <button type="submit">Добавить</button>
+    </form>
+    <table id="transaction-table">
+        <tr>
+            <th>ID</th>
+            <th>Дата и Время</th>
+            <th>Категория</th>
+            <th>Описание</th>
+            <th>Действие</th>
+        </tr>
+    </table>
+    <div id="total">
+        Общая сумма: <span id="total-amount">0</span>
+    </div>
+    <div id="full-description">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

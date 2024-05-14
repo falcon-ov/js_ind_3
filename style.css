@@ -1,0 +1,22 @@
+.positive {
+    background-color: lightgreen;
+}
+
+.negative {
+    background-color: lightcoral;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: lightgray;
+}
